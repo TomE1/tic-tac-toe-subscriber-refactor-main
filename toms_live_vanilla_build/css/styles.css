@@ -170,8 +170,23 @@ button:hover {
 }
 
 .score {
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
 }
+
+.score p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.score span {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
 .actions {
   background-color: rgb(4, 4, 24);
   color: white;
